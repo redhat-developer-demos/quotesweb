@@ -4,6 +4,8 @@ metadata:
   name: quotesweb
   labels:
     app: quotesweb
+    sandbox: learn-kubernetes
+    learn-kubernetes: quotesweb
 spec:
   replicas: 1
   selector:

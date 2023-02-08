@@ -3,6 +3,8 @@ kind: Route
 metadata:
   labels:
     app: quotesweb
+    sandbox: learn-kubernetes
+    learn-kubernetes: quotesweb
   name: quotesweb
 spec:
   port:
