@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: quotes
-          image: quay.io/donschenck/quotesweb:v1
+          image: quay.io/rhdevelopers/quotesweb:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
